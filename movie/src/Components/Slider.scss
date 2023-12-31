@@ -1,0 +1,16 @@
+.Slider{
+    height: 368px;
+    width: 100vw;
+    position: relative;
+    .Container{
+        width: 400vw;
+        height: 100%;
+        display: flex;
+        transition: 2s;
+        img{
+            width: 100vw;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
